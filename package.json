@@ -1,0 +1,15 @@
+{
+  "name": "book-recommender-hub",
+  "version": "1.0.0",
+  "description": "A web application for personalized book recommendations.",
+  "main": "index.js",
+  "scripts": {
+    "start": "flask run",
+    "test": "pytest",
+    "lint": "flake8 src"
+  },
+  "author": "OpenAI API",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}
