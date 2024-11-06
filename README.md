@@ -1,67 +1,62 @@
-# Expense Tracker
+# Personal Finance Tracker
+
+![Personal Finance Tracker Logo](logo.png)
 
 ## Overview
-
-The Expense Tracker is a console-based application developed in Python, enabling users to manage their personal finances by tracking incomes and expenses. Users can generate financial reports and receive alerts when their spending exceeds set budget limits.
+The Personal Finance Tracker is a console-based application that allows users to manage their financial transactions, set budgets, and generate insightful reports. The application is built using Python with a focus on clean architecture principles to ensure scalability and maintainability.
 
 ## Features
-
-- **User Registration and Authentication**: Securely create accounts and log in using hashed passwords.
-- **Transaction Management**: Add, update, and delete income and expense entries.
-- **Financial Reporting**: Generate monthly summary reports.
-- **Budget Alerts**: Receive notifications when expenditures surpass budget constraints.
+- Add and view financial transactions by category.
+- Set and manage financial budgets for various spending categories.
+- Generate comprehensive reports to analyze income and expenses.
+- User authentication for data security.
 
 ## Installation
-
-1. **Clone the Repository**:
+1. Clone the repository:
    ```bash
-   git clone <repository-url>
-   cd expense-tracker
+   git clone https://github.com/username/personal-finance-tracker.git
+   cd personal-finance-tracker
    ```
 
-2. **Virtual Environment (Recommended)**:
+2. Create a virtual environment and activate it:
    ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
    ```
 
-3. **Dependencies**:
+3. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 
+4. Configure your environment variables:
+   ```bash
+   cp config/.env.example .env
+   # Edit the .env file with real credentials and settings
+   ```
+
 ## Usage
+Run the application using:
+```bash
+python src/main.py
+```
 
-- Run the application:
-  ```bash
-  python src/main.py
-  ```
-
-## Project Structure
-
-- `src/` : Main application source code.
-- `tests/` : Unit tests for the application.
-
-## Scripts
-
-- **Start Application**: `npm run start`
-- **Test**: `npm run test`
-- **Lint**: `npm run lint`
+## Testing
+To run the tests, execute:
+```bash
+pytest
+```
 
 ## Development
-
-- **Run Tests**:
-  ```bash
-  pytest tests/
-  ```
-
-## Contributing
-
-Please refer to the [CONTRIBUTING.md](./CONTRIBUTING.md) file for contribution guidelines.
+Lint your code to maintain quality:
+```bash
+flake8 src/
+```
 
 ## License
-
-This project, created by OpenAI API, is licensed under the MIT License.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ---
-This README is part of the application documentation guiding users through setting up and using the Expense Tracker.
+
+### Note
+This project was created using OpenAI's GPT-3 API.
