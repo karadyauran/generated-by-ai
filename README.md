@@ -1,62 +1,47 @@
-# Personal Finance Tracker
-
-![Personal Finance Tracker Logo](logo.png)
+# Task Tracker
 
 ## Overview
-The Personal Finance Tracker is a console-based application that allows users to manage their financial transactions, set budgets, and generate insightful reports. The application is built using Python with a focus on clean architecture principles to ensure scalability and maintainability.
+Task Tracker is a console-based application designed to help users efficiently manage their tasks. It allows you to add, view, update, and remove tasks with corresponding due dates and priority levels.
 
 ## Features
-- Add and view financial transactions by category.
-- Set and manage financial budgets for various spending categories.
-- Generate comprehensive reports to analyze income and expenses.
-- User authentication for data security.
+- Add Tasks: Users can create tasks with a name, due date, and priority level.
+- View Tasks: Lists all tasks with options to display specific details.
+- Update Tasks: Modify task details or change status.
+- Remove Tasks: Delete tasks by unique identifier.
 
-## Installation
+## Getting Started
+
+### Prerequisites
+- Python 3.x
+
+### Installation
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/username/personal-finance-tracker.git
-   cd personal-finance-tracker
    ```
-
-2. Create a virtual environment and activate it:
-   ```bash
+   git clone https://github.com/your-username/task-tracker.git
+   cd task-tracker
+   ```
+2. Set up a virtual environment and install dependencies:
+   ```
    python -m venv venv
-   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-   ```
-
-3. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. Configure your environment variables:
-   ```bash
-   cp config/.env.example .env
-   # Edit the .env file with real credentials and settings
-   ```
+   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+   pip install -r requirements.txt  # If applicable
+   ````
+3. Make sure to configure your `.env` file if necessary using `.env.example` as a reference.
 
 ## Usage
-Run the application using:
+Run the Task Tracker application with:
 ```bash
-python src/main.py
+python main.py
 ```
 
-## Testing
-To run the tests, execute:
-```bash
-pytest
-```
-
-## Development
-Lint your code to maintain quality:
-```bash
-flake8 src/
-```
+### Commands
+- View all tasks: Lists all tasks in the system.
+- Add a new task: Prompts for task details and adds it to the list.
+- Remove a task: Removes a task by its unique ID.
+- Update task status: Changes the status of the task to completed or pending.
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+This project is licensed under the MIT License.
 
 ---
-
-### Note
-This project was created using OpenAI's GPT-3 API.
+This project was created using the OpenAI API. For more information, visit the [OpenAI website](https://www.openai.com/).
