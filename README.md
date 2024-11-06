@@ -1,47 +1,67 @@
-# Budget Buddy
+# Expense Tracker
 
-Budget Buddy is a console-based application designed to help users manage their personal budget effectively. The application allows users to track their income, expenses, and budgets with ease, all through a command-line interface.
+## Overview
+
+The Expense Tracker is a console-based application developed in Python, enabling users to manage their personal finances by tracking incomes and expenses. Users can generate financial reports and receive alerts when their spending exceeds set budget limits.
 
 ## Features
-- **Income Tracking**: 
-  - Log and categorize different sources of income.
-- **Expense Tracking**: 
-  - Log and manage various expenses by category.
-- **Budget Management**: 
-  - Set and manage budget limits for different categories.
-- **Report Generation**: 
-  - View summaries of income and expenses.
 
-## Getting Started
+- **User Registration and Authentication**: Securely create accounts and log in using hashed passwords.
+- **Transaction Management**: Add, update, and delete income and expense entries.
+- **Financial Reporting**: Generate monthly summary reports.
+- **Budget Alerts**: Receive notifications when expenditures surpass budget constraints.
 
-### Prerequisites
-- Python 3.x installed on your system.
+## Installation
 
-### Installation
-1. Clone the repository:
+1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/budget-buddy.git
+   git clone <repository-url>
+   cd expense-tracker
    ```
-2. Navigate into the project directory:
+
+2. **Virtual Environment (Recommended)**:
    ```bash
-   cd budget-buddy
-   ``` 
-3. Install the dependencies:
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   ```
+
+3. **Dependencies**:
    ```bash
    pip install -r requirements.txt
    ```
 
-**Note**: Dependencies are managed but empty in `package.json` as they are currently not required.
+## Usage
 
-### Usage
-To start the application, run:
-```bash
-python main.py
-```
-Follow the on-screen instructions to navigate through the application.
+- Run the application:
+  ```bash
+  python src/main.py
+  ```
 
-## Contribution
-This project was created with the support of the OpenAI API. Contributions are welcome from the community. Feel free to open issues or submit pull requests.
+## Project Structure
+
+- `src/` : Main application source code.
+- `tests/` : Unit tests for the application.
+
+## Scripts
+
+- **Start Application**: `npm run start`
+- **Test**: `npm run test`
+- **Lint**: `npm run lint`
+
+## Development
+
+- **Run Tests**:
+  ```bash
+  pytest tests/
+  ```
+
+## Contributing
+
+Please refer to the [CONTRIBUTING.md](./CONTRIBUTING.md) file for contribution guidelines.
 
 ## License
-This project is licensed under the MIT License.
+
+This project, created by OpenAI API, is licensed under the MIT License.
+
+---
+This README is part of the application documentation guiding users through setting up and using the Expense Tracker.
