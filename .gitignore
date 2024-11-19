@@ -1,0 +1,35 @@
+# Python cache and temporary files
+__pycache__/
+*.py[cod]
+
+# SQLite database files
+financial_tracker.db
+
+# Environment variables and local settings
+.env
+
+# Backup files
+*.bak
+*.backup
+
+# System-specific files
+.DS_Store
+Thumbs.db
+
+# Python virtual environment
+venv/
+
+# Logs
+*.log
+
+# IDEs settings
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Generated documentation
+/build/
+/doc/_build/
