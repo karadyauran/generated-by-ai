@@ -1,0 +1,28 @@
+{
+  "name": "personal-finance-tracker",
+  "version": "1.0.0",
+  "description": "A command-line interface application for tracking personal finance transactions and budgets.",
+  "main": "src/main.py",
+  "scripts": {
+    "start": "python3 src/main.py",
+    "test": "echo 'No tests specified'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-repository/personal-finance-tracker.git"
+  },
+  "keywords": [
+    "finance",
+    "tracking",
+    "CLI",
+    "budget",
+    "transactions"
+  ],
+  "author": "OpenAI API",
+  "license": "MIT",
+  "dependencies": {
+    "pandas": "^1.5.3",
+    "matplotlib": "^3.7.1",
+    "sqlite3": "^2.6.0"
+  }
+}
